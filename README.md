@@ -33,3 +33,7 @@ python manage.py test
 
 - Image processing gets executing on different thread, this ideally should be
 implemented as message queue worker task e.g. celery tasks.
+
+## License
+
+[MIT License](https://nks.mit-license.org/)
