@@ -1,3 +1,5 @@
 **__pycache__
-media/*
+media/uploaded_images/*
+media/processed_images/*
+!media/processed_images/.gitkeep
 db.sqlite3
