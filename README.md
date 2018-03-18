@@ -1,5 +1,10 @@
 ## Process Image
 
+A REST interface to upload images and process them asynchronously. Once the
+processing is done, it allows to download those images.
+
+## Instructions
+
 - Upload image example:
 ```bash
 curl -F "image=@path/to/image" http://localhost:8000/process-image
